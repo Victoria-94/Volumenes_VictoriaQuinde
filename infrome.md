@@ -58,19 +58,19 @@ paso 3: intalar la imagen de postgres
 ![ver en que usuario estoy](images/image3.png)
 
 
-paso 4: Conectar un administrador de base de datos DataGrip al contenedor Victoriapostgres.
+paso 4: Conectar un administrador de base de datos psql al contenedor Victoriapostgres, usando el comando docker exec -it a21 sh, psql -u postgres -h localhost.
 ![ver en que usuario estoy](images/image4.png)
 
-paso 5: Crear una base de datos llamada test.
+paso 5: Crear una base de datos llamada test, usando el comando CREATE DATABASE test;
 ![ver en que usuario estoy](images/image5.png)
 
-paso 6: En la base de datos test, crear una tabla llamada customer con los campos: id, fullname y status.
+paso 6: En la base de datos test, crear una tabla llamada customer con los campos: id, fullname y status,  usando el comando CREATE TABLE customer ( id, fullname, status)
 ![ver en que usuario estoy](images/image6.png)
 
-paso 7: Insertar al menos un registro en la tabla customer.
+paso 7: Insertar al menos un registro en la tabla custome, usando el comando INSTER INTO customer (id: 1, fullname:Victoria, status: vigente)
 ![ver en que usuario estoy](images/image7.png)
 
-paso 8: Detener y eliminar el contenedor Victoriapostgres.
+paso 8: Detener y eliminar el contenedor Victoriapostgres, usando el comando stop y rm.
 ![ver en que usuario estoy](images/image8.png)
 
 
