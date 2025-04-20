@@ -4,9 +4,11 @@ Volumenes de datos
 ## 2. Tiempo de duración
 8 horas 
 ## 3. Fundamentos:
-     Contenedor: 
+     Contenedor: Es un paquete que agrupa aplicaciones y sus dependencias.
 
-     Base de datos:
+     Base de datos de dcontenedores:es un conjunto de bases de datos compartidas.
+
+     Variables de entorno: Son valores que afectan el comportamiento de los procesos. 
 
      Volumen de datos: Los volúmenes son un mecanismo de almacenamiento que permite persistir datos más allá del ciclo de vida de un contenedor individual.
 
@@ -55,41 +57,42 @@ paso 3: intalar la imagen de postgres
 
 ![ver en que usuario estoy](images/image3.png)
 
-paso 4: intallar la imagen hola mundo, para probar (nombre, contenido, ruta)
+
+paso 4: Conectar un administrador de base de datos DataGrip al contenedor Victoriapostgres.
 ![ver en que usuario estoy](images/image4.png)
 
-paso 5: intallar el contenedor usando docker container run hello world
+paso 5: Crear una base de datos llamada test.
 ![ver en que usuario estoy](images/image5.png)
 
-paso 6: Verificacion del contendor creado
+paso 6: En la base de datos test, crear una tabla llamada customer con los campos: id, fullname y status.
 ![ver en que usuario estoy](images/image6.png)
 
-paso 7: Verificacion de los 2 contenedores creados
+paso 7: Insertar al menos un registro en la tabla customer.
 ![ver en que usuario estoy](images/image7.png)
 
-paso 8: Intalla la imagen nginx
+paso 8: Detener y eliminar el contenedor Victoriapostgres.
 ![ver en que usuario estoy](images/image8.png)
 
 
-paso 9: modificar el index.html 
+paso 9: Volver a crear el contenedor PostgreSQL con el mismo nombre Victoriapostgres.
 ![ver en que usuario estoy](images/image9.png)
 
-paso 10: Copiar informacion de index 1 a index 2
+paso 10: Conectarse nuevamente desde el administrador de base de datos.
 ![ver en que usuario estoy](images/image10.png)
 
 
-paso 11: Copiar informacion de index 2 a index 1
+paso 11: Verificar que la base de datos test ya no existe, demostrando que los datos no se han conservado.
 ![ver en que usuario estoy](images/image11.png)
 
-paso 12: verificacion de la informacion
+paso 12: Crear un contenedor PostgreSQL con el nombre victoriapostgres2
 ![ver en que usuario estoy](images/image12.png)
 
-paso 13: revision de los puertos 
+paso 13: Conectarse desde el administrador de base de datos y verificar que la base de datos test y los registros han persistido. 
 ![ver en que usuario estoy](images/image13.png)
 
 ## 9. Resultados esperados:
     
-Al finalizar esta practica se pudo evidenciar la importancia de la practica anterior sobre el uso de comandos basicos, enterder como usar un contenedor y servidor.
+Al finalizar esta practica se pudo evidenciar la importancia de la practica anterior sobre el uso de comandos basicos, enterder como usar un contenedor, servidor, la creacion de volumenes de datos.
 
 
 ## 10. Bibliografía
