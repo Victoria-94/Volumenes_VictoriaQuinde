@@ -97,9 +97,9 @@ Al finalizar esta practica se pudo evidenciar la importancia de la practica ante
 
 ## 10. Bibliografía
     
-Xu, Q., Awasthi, M., Malladi, K. T., Bhimani, J., Yang, J., & Annavaram, M. (2017, April). Docker characterization on high performance SSDs. In 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS) (pp. 133-134). IEEE.
+      Xu, Q., Awasthi, M., Malladi, K. T., Bhimani, J., Yang, J., & Annavaram, M. (2017, April). Docker characterization on high performance SSDs. In 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS) (pp. 133-134). IEEE.
 
-Naik, N. (2017, October). Docker container-based big data processing system in multiple clouds for everyone. In 2017 IEEE International Systems Engineering Symposium (ISSE) (pp. 1-7). IEEE.
+      Naik, N. (2017, October). Docker container-based big data processing system in multiple clouds for everyone. In 2017 IEEE International Systems Engineering Symposium (ISSE) (pp. 1-7). IEEE.
 
 audio:
 
